@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <title>Starlight Cinemas</title>
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="logo">
+        <div class="logo-img">
+          <a href="#">
+            <img src="logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="logo-text">
+          <a href="#">Starlight<span> Cinemas</span></a>
+        </div>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#daftarFilm">Daftar Film</a>
+        <a href="#footer">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input
+          type="search"
+          class="search-box"
+          id="search-box"
+          placeholder="Masukkan judul film dan enter..."
+        />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <img src="bg.png" alt="background" />
+      <main class="content">
+        <h1>Habiskan harimu bersama <span>Starlight Cinemas</span></h1>
+        <p>Film keren dari Starlight Cinemas siap menemanimu</p>
+        <a href="#daftarFilm" class="cta">Tonton sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <figure>
+          <img src="logo.png" alt="Logo Starlight Cinemas" />
+          <figcaption>Logo Starlight Cinemas</figcaption>
+        </figure>
+        <div class="content">
+          <h3>Menghadirkan Berbagai Film ke Genggaman Anda</h3>
+          <p>
+            Stralight Cinemas adalah jendela menuju dunia magis sinema yang tak
+            terbatas. Di sini, kami menghadirkan berbagai pilihan film terbaik
+            dari berbagai genre dan era, memungkinkan Anda untuk mengeksplorasi
+            dan menikmati kisah-kisah penuh emosi, keajaiban, dan petualangan
+            langsung dari kenyamanan rumah Anda.
+          </p>
+          <br />
+          <p>
+            Kami percaya bahwa sinema adalah lebih dari sekadar hiburan. Itu
+            adalah pengalaman yang memperkaya jiwa dan membawa orang bersama.
+            Stralight Cinemas mendedikasikan diri untuk membawa keajaiban sinema
+            ke dalam kehidupan Anda dengan kualitas gambar dan suara terbaik.
+            Kami mengundang Anda untuk menghadiri acara khusus dan pemutaran
+            film eksklusif yang menghadirkan kegembiraan sejati sinema langsung
+            ke rumah Anda.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Daftar film start -->
+    <div class="tagDaftarFilm">
+      <h2><span>Daftar</span> Film</h2>
+    </div>
+    <main class="daftarFilm" id="daftarFilm"></main>
+    <!-- Daftar film end -->
+
+    <!-- Footer start -->
+    <footer id="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/naufalrafid_nr/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=id"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://m.facebook.com/login/?locale=id_ID&refsrc=deprecated"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#daftarFilm">Daftar Film</a>
+        <a href="#footer">Kontak</a>
+      </div>
+
+      <div class="download">
+        <a href="https://www.apple.com/id/app-store/">
+          <img src="appstore.png" alt="appstore" class="appstore-img" />
+        </a>
+        <a
+          href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=en-ID&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-id-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700035189602364_creativeid_406910879718_device_c&gclid=Cj0KCQjwib2mBhDWARIsAPZUn_k9EvlFtHEqvmAmj6-wy-nnPMvz5nFBgOqqW4x6IoOBDsF9LDiieE8aAoQmEALw_wcB&gclsrc=aw.ds"
+        >
+          <img src="playstore.png" alt="playstore" class="playstore-img" />
+        </a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">naufalrafid</a> &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
